@@ -1015,4 +1015,5 @@ form.subscribe .submit:hover {
 .home_blog {
     margin-top: 60px;
     background: url(../assets/img/main_page/lemon_blog.jpg) bottom right no-repeat;
+    padding-bottom: 32px;
 }
