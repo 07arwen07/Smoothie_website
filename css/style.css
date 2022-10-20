@@ -1011,3 +1011,8 @@ form.subscribe .submit {
 form.subscribe .submit:hover {
     background-color: #B1CFE1;
 }
+
+.home_blog {
+    margin-top: 60px;
+    background: url(../assets/img/main_page/lemon_blog.jpg) bottom right no-repeat;
+}
