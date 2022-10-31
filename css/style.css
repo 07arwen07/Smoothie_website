@@ -1017,3 +1017,45 @@ form.subscribe .submit:hover {
     background: url(../assets/img/main_page/lemon_blog.jpg) bottom right no-repeat;
     padding-bottom: 32px;
 }
+
+.testimonials .testimonials_slider {
+    max-width: 780px;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.testimonials_slider .testimonials_item {
+    text-align: center;
+}
+
+.testimonials_slider .testimonials_item .author_name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #433840;
+    margin-bottom: 14px;
+}
+
+.testimonials_slider .testimonials_item .description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #9A9A9A;
+    margin-bottom: 10px;
+}
+
+.testimonials_slider .testimonials_item a {
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    color: #B1CFE1;
+}
+
+.testimonials_slider .testimonials_item a:hover {
+    color: #F7A1A8;
+}
