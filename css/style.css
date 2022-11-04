@@ -1059,3 +1059,26 @@ form.subscribe .submit:hover {
 .testimonials_slider .testimonials_item a:hover {
     color: #F7A1A8;
 }
+
+.testimonials_slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.testimonials_slider .slick-dots button {
+    font-size: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background: #DFEEB6;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.testimonials_slider .slick-dots .slick-active button {
+    background: #FEA3AC;
+}
+
