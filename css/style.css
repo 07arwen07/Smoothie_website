@@ -1131,6 +1131,11 @@ form.subscribe .submit:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    .page_heading {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .shop .item {
         width: 100%;
     }
