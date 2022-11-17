@@ -8,7 +8,7 @@ body {
 
 .wrapper {
     max-width: 1180px;
-    width: 100%;
+    width: 94%;
     margin: 0 auto;
 }
 
@@ -1105,5 +1105,28 @@ form.subscribe .submit:hover {
 
 .testimonials_slider .slick-dots .slick-active button {
     background: #FEA3AC;
+}
+
+/* Mobile adaptation */
+@media only screen and (max-width: 800px) {
+    .footer .top_footer .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .footer .top_footer {
+        margin-bottom: 0;
+    }
+
+    .footer .top_footer .wrapper .footer_item {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
 
