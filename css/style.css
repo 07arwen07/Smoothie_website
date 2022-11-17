@@ -804,6 +804,8 @@ a {
 
 .shop .item .thumbnail img {
     border-radius: 5px;
+    max-width: 100%;
+    height: auto;
 }
 
 .shop .item h3 {
@@ -1109,6 +1111,10 @@ form.subscribe .submit:hover {
 
 /* Mobile adaptation */
 @media only screen and (max-width: 800px) {
+    .shop .item {
+        width: calc(50% - 10px);
+    }
+
     .footer .top_footer .wrapper {
         flex-wrap: wrap;
     }
@@ -1125,8 +1131,8 @@ form.subscribe .submit:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+    .shop .item {
+        width: 100%;
     }
 }
 
