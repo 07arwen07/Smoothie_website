@@ -1109,10 +1109,47 @@ form.subscribe .submit:hover {
     background: #FEA3AC;
 }
 
+.mobile_nav {
+    display: none;
+}
+
 /* Mobile adaptation */
 @media only screen and (max-width: 800px) {
     .shop .item {
         width: calc(50% - 10px);
+    }
+
+    .left_nav, .right_nav {
+        display: none;
+    }
+
+    .mobile_nav {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .mobile_nav a {
+        color: #FEA3AC;
+        text-decoration: none;
+    }
+
+    .mobile_nav .open {
+        cursor: pointer;
+    }
+
+    ul.mobile {
+        display: none;
+    }
+
+    header.top_header .wrapper {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .logo {
+        margin-bottom: 20px;
     }
 
     .footer .top_footer .wrapper {
