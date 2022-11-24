@@ -1114,12 +1114,36 @@ form.subscribe .submit:hover {
 }
 
 /* Mobile adaptation */
+@media only screen and (max-width: 1180px) {
+    .homeslider .slide .title_one {
+        font-size: 90px;
+        line-height: 90px;
+    }
+
+    .homeslider .slide .title_two {
+        font-size: 120px;
+        line-height: 120px;
+    }
+
+    .homeslider .slide .title_three {
+        left: 20%;
+        top: 70%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
+    .top_header {
+        margin-bottom: 40px;
+    }
+
     .shop .item {
         width: calc(50% - 10px);
     }
 
-    .left_nav, .right_nav {
+    .left_nav,
+    .right_nav {
         display: none;
     }
 
@@ -1152,6 +1176,33 @@ form.subscribe .submit:hover {
         margin-bottom: 20px;
     }
 
+    .svg_style::before {
+        height: 70px;
+        background-position: bottom center;
+    }
+
+    .svg_style::after {
+        height: 70px;
+        background-position: top center;
+    }
+
+    .homeslider .slide .title_one {
+        font-size: 70px;
+        line-height: 70px;
+        right: 13%;
+    }
+
+    .homeslider .slide .title_two {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .homeslider .slide .title_three {
+        left: 17%;
+        font-size: 30px;
+        line-height: 32px;
+    }
+
     .footer .top_footer .wrapper {
         flex-wrap: wrap;
     }
@@ -1176,5 +1227,10 @@ form.subscribe .submit:hover {
     .shop .item {
         width: 100%;
     }
-}
 
+    .homeslider .slide .title_one,
+    .homeslider .slide .title_two,
+    .homeslider .slide .title_three {
+        display: none;
+    }
+}
