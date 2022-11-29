@@ -12,6 +12,11 @@ body {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 header.top_header .wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -1201,6 +1206,37 @@ form.subscribe .submit:hover {
         left: 17%;
         font-size: 30px;
         line-height: 32px;
+    }
+
+    .about_box {
+        margin-top: 35px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    .about_box .item_data {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .home_shop {
+        margin-top: 80px;
+    }
+
+    .home_subscribe {
+        margin-top: 80px;
+    }
+ 
+    .home_subscribe .col_left {
+        display: none;
+    }
+
+    .home_subscribe .col_right {
+        width: 100%;
+        padding-top: 70px;
+        margin-bottom: 0;
     }
 
     .footer .top_footer .wrapper {
